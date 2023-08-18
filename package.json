@@ -1,0 +1,26 @@
+{
+  "name": "z3r0",
+  "displayName": "Z3R0",
+  "description": "Dark theme with cyberpunk style inspiration",
+  "version": "1.0.0",
+  "publisher": "z3r0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thailoeduardo/z3r0"
+  },
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Z3R0",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Z3R0-color-theme.json"
+      }
+    ]
+  }
+}
