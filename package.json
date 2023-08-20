@@ -1,18 +1,38 @@
 {
   "name": "z3r0",
-  "displayName": "Z3R0",
-  "description": "Dark theme with cyberpunk style inspiration",
   "version": "1.1.0",
+  "displayName": "Z3R0",
+  "homepage": "https://github.com/thailoeduardo/z3r0",
+  "description": "Dark theme with cyberpunk style inspiration",
   "publisher": "z3r0",
+  "license": "MIT",
+  "scripts": {
+    "package": "vsce package",
+    "vsce-publish": "vsce publish"
+  },
+  "maintainers": [
+    "Thailo Eduardo <thailoeduardo@gmail.com>"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/thailoeduardo/z3r0"
+  },
+  "icon": "Z3R0.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
   },
   "engines": {
     "vscode": "^1.81.0"
   },
   "categories": [
     "Themes"
+  ],
+  "keywords": [
+    "zero",
+    "z3r0",
+    "theme",
+    "color-theme"
   ],
   "contributes": {
     "themes": [
